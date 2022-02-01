@@ -10,13 +10,13 @@
 		stack<int> st2(st);
 		
 # Các hàm hỗ trợ
-	output 		: xem ngăn xếp													⏲️ Time complexity : O(n)
-	isEmpty 	: kiểm tra ngăn xếp rỗng										⏲️ Time complexity : O(1)
-	length 		: tính số phần tử trong ngăn xếp								⏲️ Time complexity : O(1)
-	get 		: xem giá trị ở đỉnh ngăn xếp									⏲️ Time complexity : O(1)
-	swap 		: hoán vị hai ngăn xếp											⏲️ Time complexity : O(1)
-	push 		: thêm một phần tử vào ngăn xếp									⏲️ Time complexity : O(1)
-	pop 		: lấy ra một phần tử trong ngăn xếp								⏲️ Time complexity : O(1)
+	tput 		: xem ngăn xếp										⏲️ Time complexity : O(n)
+	isEmpty 	: kiểm tra ngăn xếp rỗng								⏲️ Time complexity : O(1)
+	length 		: tính số phần tử trong ngăn xếp							⏲️ Time complexity : O(1)
+	get 		: xem giá trị ở đỉnh ngăn xếp								⏲️ Time complexity : O(1)
+	swap 		: hoán vị hai ngăn xếp									⏲️ Time complexity : O(1)
+	push 		: thêm một phần tử vào ngăn xếp								⏲️ Time complexity : O(1)
+	pop 		: lấy ra một phần tử trong ngăn xếp							⏲️ Time complexity : O(1)
 	isFound	 	: có tồn tại một giá trị nào trong ngăn xếp						⏲️ Time complexity : O(n)
 	
 # Các toán tử :
