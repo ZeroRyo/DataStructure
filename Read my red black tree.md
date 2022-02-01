@@ -40,6 +40,7 @@
 # Giới thiệu các hàm xử lý trên cây đỏ đen
 	Tìm hiểu 5 tính chất, 5 trường hợp thêm và 6 trường hợp xóa trên cây đỏ đen
 	Code được tham khảo trên : https://vi.wikipedia.org/wiki/C%C3%A2y_%C4%91%E1%BB%8F_%C4%91en
+	Thực hành trên : https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 	
 	- Lớp node trong cây :
 		+ Các hàm hỗ trợ :
