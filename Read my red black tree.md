@@ -45,6 +45,8 @@
 	- Lớp node trong cây :
 		+ Các hàm hỗ trợ :
 			connectLeft, connectRight		: nối với cây con trái, phải
+		
+		+ Các hàm tĩnh :
 			rotateLeft, rotateRight			: xoay trái, phải
 			isBlack, isRed				: kiểm tra màu của nút ( có thể nhận vào một nullptr )
 			uncle, sibling				: trả về địa chỉ nút chú, nút anh
@@ -53,9 +55,6 @@
 			deleteCase1...6				: 6 trường hợp xóa
 			deleteNode				: xóa nút lá hoặc nút chỉ có một con
 			findPoorLeftChild			: xóa nút có hai con
-		
-		+ Các hàm tĩnh :
-			
 				
 	- Lớp RB Tree :
 		+ Các hàm tĩnh :
