@@ -37,6 +37,8 @@
 	📖📖📖 Áp dụng cho các bài toán quản lý từ vựng Anh - Việt, quản lý sinh viên gồm (mã sinh viên, sinh viên), ...
 
 # Giới thiệu các hàm xử lý trên cây AVL
+	Thực hành trên : https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
+
 	- Lớp node trong cây :
 		+ Các hàm hỗ trợ :
 			countHeight : tính lại chiều cao của nút đó ( nút thực hiện tính lại chiều cao sau khi quay )
