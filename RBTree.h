@@ -318,6 +318,7 @@ public:
 	void output() const;
 	void push(const bucket<key, value>& newBucket);
 	int length() const { return size; };
+	bool isEmpty() const { return root == nullptr; };
 	bucket<key, value> pop(const key& code);
 	bucket<key, value> find(const key& code) const;
 };
