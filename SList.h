@@ -1,7 +1,7 @@
 #ifndef _FISH_SINGLE_LIST_
 #define _FISH_SINGLE_LIST_
 
-#include<iostream>
+#include "queue.h"
 //==================================================
 //==========          Single List          ==========
 template <class data>
