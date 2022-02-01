@@ -32,7 +32,7 @@ class AVLTree {
 		}
 
 		//Count left->height - right->height
-		char countBalance() {
+		char countTilt() {
 			char leftHeight = left == nullptr ? 0 : left->height;
 			char rightHeight = right == nullptr ? 0 : right->height;
 			return leftHeight - rightHeight;
@@ -78,10 +78,10 @@ class AVLTree {
 			if (root == nullptr)
 				return;
 
-			char tilt = root->countBalance();
+			char tilt = root->countTilt();
 			//Right tilt -> Rotate Left
 			if (tilt < -1) {
-				if (root->right->countBalance() <= 0)	//Right subtree is right tilt
+				if (root->right->countTilt() <= 0)	//Right subtree is right tilt
 					rotateLeft(root);
 				else {	//Right subtree is left tilt
 					rotateRight(root->right);
@@ -89,7 +89,7 @@ class AVLTree {
 				}
 			}
 			else if (tilt > 1) {//Left tilt -> Rotate Right
-				if (root->left->countBalance() >= 0)	//Left subtree is left tilt
+				if (root->left->countTilt() >= 0)	//Left subtree is left tilt
 					rotateRight(root);
 				else {	//Left subtree is right tilt
 					rotateLeft(root->left);
@@ -164,6 +164,7 @@ public:
 	//Phương thức
 	void output() const;
 	void push(const bucket<key, value>& newBucket);
+	bool isEmpty() const { return root == nullptr; }
 	int length() const { return size; }
 	bucket<key, value> pop(const key& code);
 	bucket<key, value> find(const key& code) const;
