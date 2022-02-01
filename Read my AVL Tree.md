@@ -14,12 +14,12 @@
 		AVLTree<int> tree;
 
 # Các hàm hỗ trợ
-	output : xem các khóa trong cây ( chỉ xuất khóa )
-	length : tính số phần tử ( số nút ) trong cây
-	isEmpty : kiểm tra cây rỗng
-	push : nhận vào một bucket để thêm vào cây
-	pop : nhận vào một khóa ( key ) và trả ra một bucket, hàm sẽ xóa nút đó khỏi cây nếu tìm thấy
-	find : nhận vào một khóa ( key ) và trả ra một bucket
+	output 	: xem các khóa trong cây ( chỉ xuất khóa )							⏲️ Time complexity : O(n)	👾 Space complexity : O(log n)
+	length 	: tính số phần tử ( số nút ) trong cây								⏲️ Time complexity : O(1)
+	isEmpty : kiểm tra cây rỗng										⏲️ Time complexity : O(1)
+	push 	: nhận vào một bucket để thêm vào cây								⏲️ Time complexity : O(log n)
+	pop 	: nhận vào một khóa ( key ) và trả ra một bucket, hàm sẽ xóa nút đó khỏi cây nếu tìm thấy	⏲️ Time complexity : O(log n)
+	find 	: nhận vào một khóa ( key ) và trả ra một bucket						⏲️ Time complexity : O(log n)
 
 # Bài tập áp dụng
 	📖📖📖 Cho dãy gồm n số nguyên. Đếm số lượng các số đôi một khác nhau trong dãy
