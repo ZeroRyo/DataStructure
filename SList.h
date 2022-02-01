@@ -141,7 +141,8 @@ public:
 		bool operator==(const iterator& iter) const { return pointer == iter.pointer; }
 		bool operator!=(const iterator& iter) const { return pointer != iter.pointer; }
 		bool operator==(const node*& ptr) const { return pointer == ptr; }
-		iterator next() const { return iterator(pointer->next, symbiotic); }
+		iterator next() const 	{ return iterator(pointer->next, symbiotic); }
+		bool isNull() const		{ return pointer == nullptr; }
 
 		friend std::ostream& operator<<(std::ostream& out, const iterator iter) {
 			out << iter.pointer->info;
